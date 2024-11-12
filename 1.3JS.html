@@ -19,5 +19,14 @@ console.log("Special:" + special)
 let strength = "200";
 console.log("Strength:" + strength)
 
+let huidigeTijd = new Date();
+let huidigeUur = huidigeTijd.getHours();
+
+if (huidigeUur >= 9 && huidigeUur < 16) {
+    console.log("Ik moet op school zijn");
+} else {
+    console.log("Ik moet niet op school zijn");
+}
+
 </script>
 </html>
